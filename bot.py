@@ -3,7 +3,6 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart, Command
 from config import BOT_TOKEN
 
-#
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
