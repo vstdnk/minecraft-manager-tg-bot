@@ -22,7 +22,6 @@ async def echo_handler(message: types.Message):
     await message.answer(f"Вы сказали: {message.text}")
 
 
-#
 async def main():
     print("✅ Бот запущен...")
     await dp.start_polling(bot)
